@@ -1,0 +1,75 @@
+[2015/04/20 16:11:58]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/04/20 16:11:58]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/04/21 16:08:26]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/04/21 16:08:26]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/04/23 19:22:58]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/04/23 19:22:58]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/04/25 20:50:33]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/04/25 20:50:33]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/04/27 14:15:58]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/04/27 14:15:58]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/04/28 14:04:40]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/04/28 14:04:40]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/04/29 14:12:28]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/04/29 14:12:28]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/05/02 15:10:38]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/05/02 15:10:38]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/05/03 23:55:00]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/05/03 23:55:00]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/05/05 00:13:24]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/05/05 00:13:24]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/05/06 17:16:16]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/05/06 17:16:16]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/05/07 23:33:14]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/05/07 23:33:14]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/05/08 23:25:43]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/05/08 23:25:43]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/05/10 00:16:46]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/05/10 00:16:46]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 
+[2015/05/13 23:15:19]	信息	GetLocalConfigXML: config file [WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 
+	 
+[2015/05/13 23:15:19]	信息	CSiteList<ItemType, ContainerType>::Load() [C:\Program Files (x86)\ICBCEbankTools\ICBCAntiPhishing\Config\WhiteList_Bill.xml] Load error: 名稱的開頭使用無效的字元。
+ 	 

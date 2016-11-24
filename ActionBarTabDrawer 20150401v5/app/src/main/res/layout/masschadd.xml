@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="#5100c9ff"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mas_date_title"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="@string/lab_date_title"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/title" />
+
+        <EditText
+            android:id="@+id/everyday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:text="@string/everyday"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/mas_dtae_title1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:text="@string/mas_dtae_title2"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/title" />
+
+        <EditText
+            android:id="@+id/mas_heathendtime"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#ff0f1bff"
+            android:textSize="26dp"
+            android:focusableInTouchMode="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/mas_dtae_title2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/mas_dtae_title2"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/title"
+            android:layout_gravity="left" />
+
+        <EditText
+            android:id="@+id/masendtime2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#ff0f1bff"
+            android:textSize="26sp"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mas_newJob"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/lab_work_title"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/title"
+            android:gravity="left" />
+
+        <Spinner
+            android:id="@+id/spanworkitem2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:prompt="@string/selc_work_item"
+            android:spinnerMode="dialog"
+            android:textAlignment="center"
+            android:textSize="40dp"
+
+            android:entries="@array/onschdule"
+
+            >
+
+        </Spinner>
+
+        <EditText
+            android:id="@+id/tmespin2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:id="@+id/btnaddmas"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:scaleType="centerInside"
+            android:src="@drawable/add"
+            android:layout_marginBottom="10dp" />
+
+      <ImageButton
+                 android:id="@+id/btneditmas5"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_weight="1"
+                 android:background="#0000"
+                 android:scaleType="centerInside"
+                 android:src="@drawable/edit"
+                 android:layout_marginBottom="10dp" />
+
+
+      <ImageButton
+                android:id="@+id/btndeletemas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:scaleType="centerInside"
+                android:src="@drawable/delete"
+                android:layout_marginBottom="10dp" />
+
+  <!--    <ImageButton
+            android:id="@+id/btnhomemas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:scaleType="centerInside"
+            android:src="@drawable/home"
+            android:layout_marginBottom="10dp" />-->
+    </LinearLayout>
+</LinearLayout>

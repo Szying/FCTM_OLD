@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/lab_date_title"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/lab_date_title"
+        android:inputType="none"
+        android:gravity="center"
+        android:textSize="@dimen/title"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff0f1bff" />
+
+    <EditText android:id="@+id/nowtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/blood_title"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="脈搏"
+        android:textSize="@dimen/title"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff0f1bff"
+        android:layout_marginTop="5dp" />
+
+
+    <EditText android:id="@+id/pulse"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+               />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="老年人: 65~105 mmHg"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title"
+        android:gravity="center"
+        android:text="血糖"
+        android:textColor="#ff0f1bff" />
+
+    <EditText android:id="@+id/blood_glucose"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:inputType="number"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+    />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="空腹:100mg/dL、飯後140mg/dL"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title"
+            android:gravity="center"
+            android:text="血壓"
+            android:textColor="#ff0f1bff" />
+
+        <EditText android:id="@+id/blood_pressure"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:inputType="number"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="老年人: 140~160/80~90mmHg"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title"
+            android:gravity="center"
+            android:text="心跳"
+            android:textColor="#ff0f1bff" />
+
+        <EditText android:id="@+id/palpitant"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:inputType="number"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60~100tiems/minutes"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+>
+
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:scaleType="centerInside"
+            android:src="@drawable/add" />
+
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:scaleType="centerInside"
+            android:src="@drawable/edit" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:scaleType="centerInside"
+            android:src="@drawable/delete" />
+    </LinearLayout>
+</LinearLayout>

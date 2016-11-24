@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--外勞額外檢視行清單-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MyListItemmasextra"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+
+
+    <ListView
+        android:id="@+id/listAllmasextra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider = "#0066FF"
+        android:dividerHeight = "2px">
+
+    </ListView>
+
+</LinearLayout>
+

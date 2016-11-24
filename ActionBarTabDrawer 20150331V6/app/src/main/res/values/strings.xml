@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--顧主-->
+    <string name="masmagtitle">Master Management</string>
+    <string name="mas_date_title">Date</string>
+    <string name="mas_work_title">Work Item</string>
+    <string name="mas_newJob">Date</string>
+    <string name="app_name">ForeignCareTaker</string>
+    <string name="everyday">Every Day</string>
+    <string name="masbtnadd">New Add</string>
+    <string name="addsuccess">Create Success</string>
+    <string name="editsuccess">Edit Success</string>
+    <string name="deletesuccess">Delete Success</string>
+    <string name="selecterror">Please Select</string>
+    <string name="fillfields">Please fill fields</string>
+    <string name="accoutmang">Account Management</string>
+    <string name="loginlevel">Select Identity</string>
+    <string name="mas">Employer</string>
+    <string name="lab">Staff</string>
+    <string name="Add">新增</string>
+    <string name="Cancel">取消</string>
+    <!--外傭-->
+    <string name="labmagtitle">Work Maintain</string>
+    <string name="selc_work_item">Select Work ITem</string>
+    <string name="selc_date_item">Select Date</string>
+    <string name="selc_time_item">Select Time</string>
+
+    <string name="lab_date_title">Date</string>
+    <string name="lab_dtae_title">Time</string>
+    <string name="lab_work_title">Work Item</string>
+    <string name="lab_newJob">Date</string>
+    <string name="lab_selc_work_item">Select Work ITem</string>
+    <string name="labbtnadd">New Add</string>
+    <string name="labdatatitle">Input data</string>
+    <string name="onschdule">EveryDay Work</string>
+    <string name="mas_dtae_title2">Time End</string>
+    <string name="pulse">pulse</string>
+    <string name="blood_glucose">blood glucose</string>
+    <string name="blood_pressure">blood pressure</string>
+    <string name="palpitant">palpitant</string>
+    <string name="mas_dtae_title1">Time Begin</string>
+
+
+    <!--老師的-->
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!--錄音記事的string-->
+    <string name="hello">Recording</string>
+    <string name="title_activity_soundplayer">soundplayer</string>
+    <string name="title_activity_sound_player1">PLAY</string>
+    <string name="txt_play">PLAY</string>
+    <string name="txt_pasue">PAUSE</string>
+    <string name="txt_stop">STOP</string>
+
+    <string name="username">Account</string>
+    <string name="password">Password</string>
+    <!--登入對話盒-->
+    <string name="longIn">登入</string>
+    <string name="login_err">登入失敗</string>
+    <string name="new_id">新帳號</string>
+    <string name="close">關閉</string>
+    <string name="Master">雇主Master</string>
+    <string name="Foreign_Caretaker">外傭Foreign Caretaker</string>
+    <string name="register">註冊</string>
+    <string name="delete_err">刪除錯誤</string>
+    <string name="query_err">查詢錯誤</string>
+    <string name="update_err">修改錯誤</string>
+    <string name="insert_err">新增錯誤</string>
+    <string name="logout_err">登出錯誤</string>
+
+
+
+    <string-array name="UserType_list">
+        <item>雇主Master</item>
+        <item>外傭Foreign Caretaker</item>
+    </string-array>
+    <string name = "spn_usertype_list_prompt">請選擇身份別</string>
+
+
+    <!--工作內容-->
+    <string-array name="onschdule">
+        <item>visitors</item>        　　
+        <item>Grocery shopping</item>        　　
+        <item>Take a walk</item>        　　
+        <item>Wash</item>        　　
+        <item>Bathe</item>
+        <item>Get up</item>
+        <item>Volume pulse</item>
+        <item>Blood pressure</item>
+        <item>Massage</item>
+        <item>Stretch</item>
+        <item>Clothes</item>
+        <item>Prepare breakfast</item>
+        <item>Brush teeth, wash face</item>
+        <item>Given medicines</item>
+        <item>Laundry</item>
+        <item>Assistance to walk</item>
+        <item>Feet</item>
+        <item>Sunbathe</item>
+        <item>Cleaning the house</item>
+        <item>Prepare lunch</item>
+        <item>Finishing table</item>
+        <item>Do the washing up</item>
+        <item>Sweep the floor</item>
+        <item>Trash</item>
+        <item>Collect clothes</item>
+        <item>Watering</item>
+        <item>Lunch break</item>       　　
+        <item>post office</item>        　　
+        <item>hostipal</item>        　　
+        <item>holiday</item>
+        <item>Buy diapers</item>
+        　　
+    </string-array>
+
+    <!--選單-->
+    <string-array name="menumas">        　　
+        <item>MasSchRpt</item>        　　
+        <item>LabHelRpt</item>        　　
+        <item>MasRecorder</item>
+        <item>GPS</item>        　　
+        <item>LabRaw</item>        　　
+        <item>InterNetConnect</item>         　　
+    </string-array>
+
+
+
+    <string-array name="menulab">
+        <item>LabWorkAdd</item>        　　
+        <item>LabNormRpt</item>        　　
+        <item>LabExtraRpt</item>
+        <item>LabTrain</item>        　　
+        <item>LabLanguTrain</item>　　　
+        　　
+    </string-array>
+
+
+
+
+</resources>

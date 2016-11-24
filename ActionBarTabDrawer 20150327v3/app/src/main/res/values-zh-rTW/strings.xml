@@ -1,0 +1,125 @@
+<resources>
+    <!--雇主-->
+    <string name="masmagtitle">顧主管理</string>
+    <string name="mas_date_title">日期</string>
+    <string name="mas_work_title">工作事項</string>
+    <string name="mas_newJob">新增活動</string>
+    <string name="app_name">外傭管理</string>
+    <string name="everyday">固定排程</string>
+    <string name="masbtnadd">新增</string>
+    <string name="addsuccess">建立成功</string>
+    <string name="editsuccess">修改成功</string>
+    <string name="deletesuccess">刪除成功</string>
+    <string name="selecterror">您沒有選擇任何項目</string>
+    <string name="fillfields">請務必填完全部的欄位</string>
+    <string name="accoutmang">帳號管理</string>
+    <string name="loginlevel">請選擇登入身份</string>
+    <string name="mas">雇主</string>
+    <string name="lab">外傭</string>
+    <string name="Add">新增</string>
+    <string name="Cancel">取消</string>
+
+    <!--外傭-->
+    <string name="labmagtitle">外傭工作排程維護</string>
+    <string name="selc_work_item">工作選取</string>
+    <string name="selc_date_item">日期選取</string>
+    <string name="selc_time_item">時間選取</string>
+
+    <string name="lab_date_title">日期</string>
+    <string name="lab_dtae_title">時間</string>
+    <string name="lab_work_title">內容</string>
+    <string name="lab_newJob">日期</string>
+    <string name="lab_selc_work_item">選取工作事項</string>
+    <string name="labbtnadd">新增</string>
+    <string name="labdatatitle">輸入資料</string>
+    <string name="onschdule">固定排程</string>
+    <string name="mas_dtae_title2">時間止</string>
+    <string name="pulse">脈搏</string>
+    <string name="blood_glucose">血糖</string>
+    <string name="blood_pressure">血壓</string>
+    <string name="palpitant">心跳</string>
+    <string name="mas_dtae_title1">日期起</string>
+
+
+    <!--老師的-->
+
+    <string name="action_settings">設定</string>
+    <string name="drawer_open">請開啓</string>
+    <string name="drawer_close">請關閉</string>
+
+    <!--錄音記事的string-->
+    <string name="hello">錄音記事</string>
+    <string name="title_activity_soundplayer">soundplayer</string>
+    <string name="title_activity_sound_player1">播放</string>
+    <string name="txt_play">播放/暫停</string>
+    <string name="txt_pasue">暫停</string>
+    <string name="txt_stop">停止</string>
+
+    <string name="username">帳號</string>
+    <string name="password">密碼</string>
+
+    <!--工作內容-->
+    <string-array name="onschdule">
+        　　
+        <item>有訪客</item>        　　
+        <item>買菜</item>        　　
+        <item>散步</item>        　　
+        <item>洗臉</item>        　　
+        <item>洗澡</item>
+        <item>起床</item>
+        <item>量脈搏</item>
+        <item>量血壓</item>
+        <item>按摩</item>
+        <item>拉筋</item>
+        <item>穿衣服</item>
+        <item>準備早餐</item>
+        <item>刷牙、洗臉</item>
+        <item>餵藥</item>
+        <item>洗衣服</item>
+        <item>協助走路</item>
+        <item>泡腳</item>
+        <item>曬太陽</item>
+        <item>屋外打掃</item>
+        <item>準備午餐</item>
+        <item>整理餐桌</item>
+        <item>洗碗</item>
+        <item>掃地</item>
+        <item>倒垃圾</item>
+        <item>收衣服</item>
+        <item>澆花</item>
+        <item>中午休息</item>       　　
+        <item>郵局</item>        　　
+        <item>醫院</item>        　　
+        <item>放假</item>
+        <item>買尿布</item>
+
+        　　
+    </string-array>
+    <!--選單-->
+
+
+
+
+
+    <string-array name="menumas">        　　
+        <item>工作排程</item>        　　
+        <item>健康紀錄</item>        　　
+        <item>錄音記事</item>
+        <item>外傭位置</item>        　　
+        <item>法規資料</item>        　　
+        <item>會員資料</item>        　　
+    </string-array>
+
+
+    <string-array name="menulab">        　　
+        <item>健康紀錄</item>        　　
+        <item>行程檢視</item>        　　
+        <item>例外事項</item>
+        <item>錄音記事</item>
+        <item>護理影音</item>        　　
+        <item>語言學習</item>　        　　
+    </string-array>
+
+
+
+</resources>

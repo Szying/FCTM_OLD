@@ -1,0 +1,125 @@
+<resources>
+    <!--顧主-->
+    <string name="masmagtitle">menguasai</string>
+    <string name="mas_date_title">Buah Kurma</string>
+    <string name="mas_work_title">Work Item</string>
+    <string name="mas_newJob">Buah Kurma</string>
+    <string name="app_name">Caretaker asing</string>
+    <string name="everyday">setiap Hari</string>
+    <string name="masbtnadd">menambahkan</string>
+    <string name="addsuccess">berhasil didirikan</string>
+    <string name="editsuccess">modifikasi berhasil</string>
+    <string name="deletesuccess">berhasil dihapus</string>
+    <string name="selecterror">Silahkan Pilih</string>
+    <string name="fillfields">Pastikan untuk mengisi semua bidang</string>
+    <string name="accoutmang">Manajer Akun</string>
+    <string name="loginlevel">Pilih identitas masuk</string>
+    <string name="mas">Pemberi Kerja</string>
+    <string name="lab">Staff</string>
+    <!--外傭-->
+    <string name="labmagtitle">mempertahankann</string>
+    <string name="selc_work_item">pekerjaan</string>
+    <string name="selc_date_item">Buah Kurma</string>
+    <string name="selc_time_item">waktu</string>
+
+    <string name="lab_date_title">Buah Kurma</string>
+    <string name="lab_dtae_title">waktu</string>
+    <string name="lab_work_title">pekerjaan</string>
+    <string name="lab_newJob">Buah Kurma</string>
+    <string name="lab_selc_work_item">memilih</string>
+    <string name="labbtnadd">menambahkan</string>
+    <string name="labdatatitle">setelah</string>
+    <string name="onschdule">pekerjaan sehari-hari</string>
+    <string name="mas_date_title2">saat ini hanya</string>
+    <string name="pulse">denyut Nadi</string>
+    <string name="blood_glucose">glukosa darah</string>
+    <string name="blood_pressure">tekanan darah</string>
+    <string name="palpitant">denyut jantung</string>
+    <string name="mas_date_title1">Buah Kurma</string>
+    <string name="title1">puasa:100mg/dL、setelah makan malam140mg/dL</string>
+    <!--老師的-->
+
+    <string name="action_settings">pengaturan</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!--錄音記事的string-->
+    <string name="hello">rekaman</string>
+    <string name="title_activity_soundplayer">sound player</string>
+    <string name="title_activity_sound_player1">broadcast</string>
+    <string name="txt_play">broadcast</string>
+    <string name="txt_pasue">waktu habis</string>
+    <string name="txt_stop">berhenti</string>
+
+    <string name="username">nomor rekening</string>
+    <string name="password">Kata Sandi</string>
+
+
+    <!--工作內容-->
+    <string-array name="onschdule">
+        　　
+        <item>ADA YANGDATANG BESUKANDA</item>        　　
+        <item>BELI SAYUR</item>        　　
+        <item>JALAN-JALAN</item>        　　
+        <item>CUCI MUKA</item>        　　
+        <item>MANDI</item>
+        <item>bangun</item>
+        <item>Volume pulsa</item>
+        <item>tekanan darah</item>
+        <item>pijat</item>
+        <item>meregang</item>
+        <item>pakaian</item>
+        <item>Sarapan Pagi</item>
+        <item>Sikat gigi Anda, mencuci muka</item>
+        <item>obat-obatan yang diberikan</item>
+        <item>binatu</item>
+        <item>bantuan untuk berjalan</item>
+        <item>kaki</item>
+        <item>berjemur</item>
+        <item>membersihkan rumah</item>
+        <item>menyiapkan makan siang</item>
+        <item>tabel Finishing</item>
+        <item>mencuci piring</item>
+        <item>menyapu lantai</item>
+        <item>sampah</item>
+        <item>mengumpulkan pakaian</item>
+        <item>pengairan</item>
+        <item>istirahat siang</item>
+        <item>kantor pos</item>        　　
+        <item>rumah sakit</item>        　　
+        <item>hari raya</item>
+        <item>membeli popok</item>　　
+    </string-array>
+
+
+    <!--選單-->
+
+
+    <string-array name="menumas">        　　
+        <item>penjadwalan</item>        　　
+        <item>catatan kesehatan</item>        　　
+        <item>rekaman</item>
+        <item>GPS</item>        　　
+        <item>Peraturan Perundang-Undangan</item>        　　
+        <item>anggota</item>        　　
+    </string-array>
+
+
+    <string-array name="menulab">        　　
+        <item>Li Jian catatan Login</item>        　　
+        <item>Jadwal Tetap</item>        　　
+        <item>Pekerjaan baru</item>
+        <item>Perawatan Video</item>        　　
+        <item>Belajar bahasa</item>　        　　
+    </string-array>
+    <!--系統用-->
+    <string name="login_err">kesalahan Login</string>
+    <string name="insert_err">kesalahan menyisipkan</string>
+    <string name="logout_err">kesalahan keluar</string>
+    <string name="delete_err">kesalahan hapus</string>
+    <string name="unlink_err">kesalahan unlink</string>
+    <string name="update_err">kesalahan memperbaruir</string>
+    <string name="query_err">kesalahan pertanyaan</string>
+    <string name="link_err">kesalahan mata rantai</string>
+
+</resources>

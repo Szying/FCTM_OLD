@@ -1,0 +1,76 @@
+package com.fctm.actionbartabdrawer;
+
+/**
+ * Created by Red on 2015/3/28.
+ */
+
+
+public class HttpAction {
+    public static void login(String account, String password, IHttpCompleted callback) {
+        try {
+            new AsyncHttpConnection(callback, "login", "member", account, password).execute().get();
+        } catch (Exception e) {
+            callback.doError(R.string.login_err);
+        }
+    }
+
+    public static void logout(String account, IHttpCompleted callback) {
+        try {
+            new AsyncHttpConnection(callback, "logout", "member", account, "").execute().get();
+        } catch (Exception e) {
+            callback.doError(R.string.logout_err);
+        }
+    }
+
+    public static void insert(String type, String data, IHttpCompleted callback) {
+        try {
+            new AsyncHttpConnection(callback, "insert", type, "", data).execute().get();
+        } catch (Exception e) {
+            callback.doError(R.string.insert_err);
+        }
+    }
+
+    public static void update(String type, String number, String data, IHttpCompleted callback) {
+        try {
+            new AsyncHttpConnection(callback, "update", type, number, data).execute().get();
+        } catch (Exception e) {
+            callback.doError(R.string.update_err);
+        }
+    }
+
+    public static void query(String type, String number, String status, IHttpCompleted callback) {
+        try {
+            new AsyncHttpConnection(callback, "query", type, number, status).execute().get();
+        } catch (Exception e) {
+            callback.doError(R.string.query_err);
+        }
+    }
+
+    public static void delete(String type, String number, IHttpCompleted callback) {
+        try {
+            new AsyncHttpConnection(callback, "delete", type, number, "").execute().get();
+        } catch (Exception e) {
+            callback.doError(R.string.delete_err);
+        }
+    }
+
+    public static void link(String emp_id, String nurse_id, IHttpCompleted callback) {
+        try {
+            new AsyncHttpConnection(callback, "link", "link", emp_id, nurse_id).execute().get();
+        } catch (Exception e) {
+            callback.doError(R.string.link_err);
+        }
+    }
+
+    public static void unlink(String emp_id, String nurse_id, IHttpCompleted callback) {
+        try {
+            new AsyncHttpConnection(callback, "link", "unlink", emp_id, nurse_id).execute().get();
+        } catch (Exception e) {
+            callback.doError(R.string.unlink_err);
+        }
+    }
+
+}
+
+
+

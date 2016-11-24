@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--顧主檢視行清單-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MyListItemmas"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|left"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+    <ImageButton
+        android:id="@+id/btnaddmas1"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="#0000"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/add" />
+
+<TextView
+    android:layout_width="1dp"
+    android:layout_weight="2"
+    android:layout_height="40dp"
+    android:background="@color/white"
+    android:text="@string/labmagtitle"
+    android:textSize="20dp"
+    android:textColor="#8A0808"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listAllmas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider = "#E0F8E0"
+        android:dividerHeight = "2px"
+        android:layout_marginTop="30dp">
+
+    </ListView>
+
+</LinearLayout>
+

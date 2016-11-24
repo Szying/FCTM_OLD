@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="masfunclist">
+        　　
+        <item>Schedule List</item>
+        　　
+        <item>New Health Notes</item>
+        　　
+        <item>Record List</item>
+        　　
+        <item>GPS</item>
+        　　
+        <item>Account Management</item>
+        　　
+    </string-array>
+
+    <string-array name="labfunclist">
+        　　
+        <item>工作行程確認</item>
+        　　
+        <item>輸入健康紀錄表</item>
+        　　
+        <item>檢視工作行程</item>
+        　　
+        <item>檢視錄音紀錄</item>
+        　　
+        <item>帳號管理 </item>
+        　　
+    </string-array>
+    　　
+</resources>

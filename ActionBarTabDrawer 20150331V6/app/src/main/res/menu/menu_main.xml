@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/menuadd"
+        android:icon="@drawable/add"
+        android:orderInCategory="20"
+        android:showAsAction="never"
+        android:title="Add">
+    </item>
+    <item
+        android:id="@+id/muschadd"
+        android:icon="@drawable/icon_add"
+        android:orderInCategory="10"
+        android:showAsAction="ifRoom"
+        android:title="Add">
+    </item>
+
+
+</menu>

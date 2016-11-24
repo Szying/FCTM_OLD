@@ -1,0 +1,25 @@
+<resources>
+
+    <dimen name="dimMasHead">30sp</dimen>
+    <dimen name="dimMasTit">26sp</dimen>
+    <dimen name="dimcont">20sp</dimen>
+    <dimen name="dimMsg">26sp</dimen>
+
+
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="activity_padding">20dp</dimen>
+    <dimen name="msg1">20sp</dimen>
+    <dimen name="msg2">18sp</dimen>
+    <dimen name="txt">24sp</dimen>
+    <dimen name="txtSmall">20sp</dimen>
+    <dimen name="txtBig">38sp</dimen>
+
+    <dimen name="title">26dp</dimen>
+    <dimen name="content">35dp</dimen>
+    <dimen name="height">50dp</dimen>
+    <dimen name="weight">150dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

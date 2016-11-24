@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--顧主檢視行清單-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MyListItemmas"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+
+    <ListView
+        android:id="@+id/listAllmas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider = "#E0F8E0"
+        android:dividerHeight = "2px">
+
+    </ListView>
+
+</LinearLayout>
+
